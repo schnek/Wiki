@@ -146,7 +146,7 @@ Installing Visual Studio make sure to select 'Desktop Development with C++' and 
 
 ![cmake_2.png](/Wiki/images/installation.windows/cmake_2.png)
 
-**3.** You should get a list with all available parts of our framework. Make your selection and press "Configure". Remember to create the folder specified under CMAKE_INSTALL_PREFIX, otherwise the INSTALL project will fail.
+**3.** You should get a list with all available parts of our framework. Make your selection and press "Configure". Remember to create the folder specified under ***CMAKE_INSTALL_PREFIX***, otherwise the INSTALL project will fail.
 
 You can choose which client should be supported by AscEmu.
 
