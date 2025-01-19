@@ -2,7 +2,7 @@
 title: Windows Visual Studio
 type: CoreGroup
 layout: single_markdown
-position: 2
+position: 3
 ---
 
 # Windows: Visual Studio

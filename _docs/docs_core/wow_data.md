@@ -2,7 +2,7 @@
 title: WoW Data
 type: CoreGroup
 layout: single_markdown
-position: 4
+position: 2
 ---
 
 # WoW Data

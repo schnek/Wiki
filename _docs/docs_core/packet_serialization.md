@@ -2,7 +2,7 @@
 title: Packet Serialization
 type: CoreGroup
 layout: single_markdown
-position: 3
+position: 1
 ---
 
 # Packet Serialization
