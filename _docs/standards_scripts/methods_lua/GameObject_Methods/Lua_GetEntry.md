@@ -9,7 +9,7 @@ position: 1
 
 ## Description
 
-Returns the entry ID of the unit. Works for NPC as well as for GO.        
+Returns the entry ID of the unit. Works for NPC as well as for GO.
 
 ## Syntax
 
