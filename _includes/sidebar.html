@@ -18,7 +18,6 @@
 
             <a href="#databaseGroup" data-toggle="collapse" aria-expanded="false">Database</a>
             <ul class="collapse list-unstyled" id="databaseGroup">
-                <li><a href="{{ site.url }}/Wiki/database/auto_update">Auto Database Update</a></li>
                 <a href="#logonSubGroup" data-toggle="collapse" aria-expanded="false">Logon Database</a>
                 <ul class="collapse list-unstyled" id="logonSubGroup">
                     {% assign dbdocs = site.database | where: "type","logondb" | group_by: 'category' %}
@@ -72,6 +71,7 @@
 
             <a href="#CoreGroup" data-toggle="collapse" aria-expanded="false">Core Docs</a>
             <ul class="collapse list-unstyled" id="CoreGroup">
+                <li><a href="{{ site.url }}/Wiki/docs/auto_update">Auto Database Update</a></li>
                 <li><a href="{{ site.url }}/Wiki/docs/docs_core/packet_serialization">Packet Serialization</a></li>
                 <li><a href="{{ site.url }}/Wiki/docs/packets">Packets</a></li>
                 <li><a href="{{ site.url }}/Wiki/docs/docs_core/wow_data">Wow Data</a></li>
