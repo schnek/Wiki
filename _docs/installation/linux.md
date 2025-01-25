@@ -113,6 +113,7 @@ GRANT ALL PRIVILEGES ON ascemu_char.* TO 'your_username'@'%';
 CREATE DATABASE `ascemu_logon`;
 GRANT ALL PRIVILEGES ON ascemu_logon.* TO 'your_username'@'%';
 FLUSH PRIVILEGES;
+SHOW DATABASES;
 quit
 ```
 
