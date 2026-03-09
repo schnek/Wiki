@@ -1,11 +1,11 @@
 ---
-title: CMSG_REQUEST_HOTFIX
+title: SMSG_MOVE_WATER_WALK
 type: packets
 layout: single_markdown_in_list
-position: 1164
+position: 223
 ---
 
-## CMSG_REQUEST_HOTFIX
+## SMSG_MOVE_WATER_WALK
 
 ### Status
 
@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    |            |
 TBC        |            |
 WotLK      |            |
-Cata       | 0x2401     |
-MoP        | 0x158D     |
+Cata       |            |
+MoP        | 0x1F9A     |
