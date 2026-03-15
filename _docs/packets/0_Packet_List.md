@@ -416,7 +416,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_MOUNTSPECIAL_ANIM](#cmsg_mountspecial_anim) | serialized | serialized | serialized | not used | not used
 [SMSG_MOUNTSPECIAL_ANIM](#smsg_mountspecial_anim) | serialized | serialized | serialized | serialized | serialized
 [SMSG_PET_TAME_FAILURE](#smsg_pet_tame_failure) |  |  |  |  | 
-[CMSG_PET_SET_ACTION](#cmsg_pet_set_action) | serialized | serialized | serialized | serialized | serialized
+[CMSG_PET_SET_ACTION](#cmsg_pet_set_action) | serialized | serialized | serialized | not used | not used
 [CMSG_PET_ACTION](#cmsg_pet_action) | serialized | serialized | serialized | serialized | serialized
 [CMSG_PET_ABANDON](#cmsg_pet_abandon) | serialized | serialized | serialized | not used | not used
 [CMSG_PET_RENAME](#cmsg_pet_rename) | serialized | serialized | serialized | not used | not used
