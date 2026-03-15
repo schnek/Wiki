@@ -1167,27 +1167,25 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_QUERY_BATTLEFIELD_STATE](#cmsg_query_battlefield_state) | not used | not used | not used | serialized | not used
 [CMSG_ADDON_REGISTERED_PREFIXES](#cmsg_addon_registered_prefixes) | not used | not used | not used | serialized | serialized
 [CMSG_UNREGISTER_ALL_ADDON_PREFIXES](#cmsg_unregister_all_addon_prefixes) | not used | not used | not used | serialized | serialized
+[SMSG_SPLINE_SET_PITCH_RATE](#smsg_spline_set_pitch_rate) | not used | not used | not used | not used | not used
+[MSG_MOVE_SET_PITCH_RATE](#msg_move_set_pitch_rate) | not used | not used | not used | not used | not used
+[SMSG_FORCE_PITCH_RATE_CHANGE](#smsg_force_pitch_rate_change) | not used | not used | not used | not used | not used
+[SMSG_MOVE_SET_SWIM_BACK_SPEED](#smsg_move_set_swim_back_speed) | not used | not used | not used | not used | not used
+[SMSG_SPLINE_MOVE_SET_FLYING](#smsg_spline_move_set_flying) | not used | not used | not used | not used | not used
+[SMSG_SPLINE_MOVE_UNSET_FLYING](#smsg_spline_move_unset_flying) | not used | not used | not used | not used | not used
+[SMSG_SPLINE_MOVE_GRAVITY_DISABLE](#smsg_spline_move_gravity_disable) | not used | not used | not used | not used | not used
+[SMSG_SPLINE_MOVE_GRAVITY_ENABLE](#smsg_spline_move_gravity_enable) | not used | not used | not used | not used | not used
+[SMSG_MOVE_GRAVITY_DISABLE](#smsg_move_gravity_disable) | not used | not used | not used | not used | not used
+[SMSG_MOVE_GRAVITY_ENABLE](#smsg_move_gravity_enable) | not used | not used | not used | not used | not used
+[SMSG_MOVE_SET_WALK_SPEED](#smsg_move_set_walk_speed) | not used | not used | not used | not used | not used
+[SMSG_MOVE_UPDATE_TELEPORT](#smsg_move_update_teleport) | not used | not used | not used | not used | not used
+[SMSG_SET_DUNGEON_DIFFICULTY](#smsg_set_dungeon_difficulty) | not used | not used | not used | not used | not used
+[CMSG_SET_RAID_DIFFICULTY](#cmsg_set_raid_difficulty) | not used | not used | not used | not used | not used
+[CMSG_SET_DUNGEON_DIFFICULTY](#cmsg_set_dungeon_difficulty) | not used | not used | not used | not used | not used
+[SMSG_MOVE_SET_TURN_RATE](#smsg_move_set_turn_rate) | not used | not used | not used | not used | not used
+[SMSG_MOVE_SET_SWIM_SPEED](#smsg_move_set_swim_speed) | not used | not used | not used | not used | not used
+[SMSG_MOVE_SET_RUN_SPEED](#smsg_move_set_run_speed) | not used | not used | not used | not used | not used
+[SMSG_MOVE_SET_RUN_BACK_SPEED](#smsg_move_set_run_back_speed) | not used | not used | not used | not used | not used
+[SMSG_MOVE_SET_FLIGHT_BACK_SPEED](#smsg_move_set_flight_back_speed) | not used | not used | not used | not used | not used
 
-<!-- position next 1169 -- >
-SMSG_SPLINE_SET_PITCH_RATE",    OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0x45E,/*WotLK*/ 0x14B0,/*Cata only */ 0x0000/*Mop*/}}},
-MSG_MOVE_SET_PITCH_RATE",       OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0x45B,/*WotLK*/ 0x75B0,/*Cata*/ 0x17AB/*Mop*/}}},
-SMSG_FORCE_PITCH_RATE_CHANGE",  OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0x45C,/*WotLK*/ 0x1DB5,/*Cata*/ 0x0000/*Mop*/}}},
-SMSG_MOVE_SET_SWIM_BACK_SPEED", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x0962/*Mop*/}}},
-SMSG_SPLINE_MOVE_SET_FLYING",   OpcodeDevelopmentState::Unchecked, {*/ 0x31B5,/*Cata*/ 0x1046/*Mop*/}}},
-SMSG_SPLINE_MOVE_UNSET_FLYING", OpcodeDevelopmentState::Unchecked, {   0x58A6,/*Cata*/ 0x0DE2/*Mop*/}}},
-SMSG_SPLINE_MOVE_GRAVITY_DISABLE", OpcodeDevelopmentState::Unchecked,  0x5DB5,/*Cata*/ 0x0845/*Mop*/}}},
-SMSG_SPLINE_MOVE_GRAVITY_ENABLE", OpcodeDevelopmentState::Unchecked,   0x3CA6,/*Cata*/ 0x0865/*Mop*/}}},
-SMSG_MOVE_GRAVITY_DISABLE", OpcodeDevelopmentState::Unchecked, {       0x75B2,/*Cata*/ 0x159F/*Mop*/}}},
-SMSG_MOVE_GRAVITY_ENABLE", OpcodeDevelopmentState::Unchecked, {        0x30B3,/*Cata*/ 0x0A27/*Mop*/}}},
-{SMSG_MOVE_SET_WALK_SPEED, {0x1F, "SMSG_MOVE_SET_WALK_SPEED", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x0469/*Mop*/}}},
-SMSG_MOVE_UPDATE_TELEPORT", OpcodeDevelopmentState::Unchecked, {       0x50B2,/*Cata*/ no /*Mop*/}}},
-{SMSG_SET_DUNGEON_DIFFICULTY, {0x1F, "SMSG_SET_DUNGEON_DIFFICULTY", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x1283/*Mop*/}}},
-registry.registerOpcode(CMSG_SET_RAID_DIFFICULTY, &WorldSession::handleRaidDifficultyOpcode, false, false, false, false, true);
-registry.registerOpcode(CMSG_SET_DUNGEON_DIFFICULTY, &WorldSession::handleDungeonDifficultyOpcode, false, false, false, false, true);
-{SMSG_MOVE_SET_TURN_RATE, {0x1F, "SMSG_MOVE_SET_TURN_RATE", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x0069/*Mop*/}}},
-{SMSG_MOVE_SET_SWIM_SPEED, {0x1F, "SMSG_MOVE_SET_SWIM_SPEED", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x0817/*Mop*/}}},
-SMSG_MOVE_SET_RUN_SPEED", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x184C/*Mop*/}}},
-SMSG_MOVE_SET_RUN_BACK_SPEED", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x0A83/*Mop*/}}},
-SMSG_MOVE_SET_FLIGHT_BACK_SPEED", OpcodeDevelopmentState::Unchecked, {0,/*Classic*/ 0,/*BC*/ 0,/*WotLK*/ 0,/*Cata*/ 0x0319/*Mop*/}}},
-
--->
+<!-- position next 1189 -->
