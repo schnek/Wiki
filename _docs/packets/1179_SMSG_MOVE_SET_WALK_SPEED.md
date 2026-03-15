@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       |            |
-MoP        |            |
+MoP        | 0x0469     |

@@ -1167,25 +1167,25 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_QUERY_BATTLEFIELD_STATE](#cmsg_query_battlefield_state) | not used | not used | not used | serialized | not used
 [CMSG_ADDON_REGISTERED_PREFIXES](#cmsg_addon_registered_prefixes) | not used | not used | not used | serialized | serialized
 [CMSG_UNREGISTER_ALL_ADDON_PREFIXES](#cmsg_unregister_all_addon_prefixes) | not used | not used | not used | serialized | serialized
-[SMSG_SPLINE_SET_PITCH_RATE](#smsg_spline_set_pitch_rate) | not used | not used | not used | not used | not used
-[MSG_MOVE_SET_PITCH_RATE](#msg_move_set_pitch_rate) | not used | not used | not used | not used | not used
-[SMSG_FORCE_PITCH_RATE_CHANGE](#smsg_force_pitch_rate_change) | not used | not used | not used | not used | not used
-[SMSG_MOVE_SET_SWIM_BACK_SPEED](#smsg_move_set_swim_back_speed) | not used | not used | not used | not used | not used
-[SMSG_SPLINE_MOVE_SET_FLYING](#smsg_spline_move_set_flying) | not used | not used | not used | not used | not used
-[SMSG_SPLINE_MOVE_UNSET_FLYING](#smsg_spline_move_unset_flying) | not used | not used | not used | not used | not used
-[SMSG_SPLINE_MOVE_GRAVITY_DISABLE](#smsg_spline_move_gravity_disable) | not used | not used | not used | not used | not used
-[SMSG_SPLINE_MOVE_GRAVITY_ENABLE](#smsg_spline_move_gravity_enable) | not used | not used | not used | not used | not used
-[SMSG_MOVE_GRAVITY_DISABLE](#smsg_move_gravity_disable) | not used | not used | not used | not used | not used
-[SMSG_MOVE_GRAVITY_ENABLE](#smsg_move_gravity_enable) | not used | not used | not used | not used | not used
-[SMSG_MOVE_SET_WALK_SPEED](#smsg_move_set_walk_speed) | not used | not used | not used | not used | not used
-[SMSG_MOVE_UPDATE_TELEPORT](#smsg_move_update_teleport) | not used | not used | not used | not used | not used
-[SMSG_SET_DUNGEON_DIFFICULTY](#smsg_set_dungeon_difficulty) | not used | not used | not used | not used | not used
-[CMSG_SET_RAID_DIFFICULTY](#cmsg_set_raid_difficulty) | not used | not used | not used | not used | not used
-[CMSG_SET_DUNGEON_DIFFICULTY](#cmsg_set_dungeon_difficulty) | not used | not used | not used | not used | not used
-[SMSG_MOVE_SET_TURN_RATE](#smsg_move_set_turn_rate) | not used | not used | not used | not used | not used
-[SMSG_MOVE_SET_SWIM_SPEED](#smsg_move_set_swim_speed) | not used | not used | not used | not used | not used
-[SMSG_MOVE_SET_RUN_SPEED](#smsg_move_set_run_speed) | not used | not used | not used | not used | not used
-[SMSG_MOVE_SET_RUN_BACK_SPEED](#smsg_move_set_run_back_speed) | not used | not used | not used | not used | not used
-[SMSG_MOVE_SET_FLIGHT_BACK_SPEED](#smsg_move_set_flight_back_speed) | not used | not used | not used | not used | not used
+[SMSG_SPLINE_SET_PITCH_RATE](#smsg_spline_set_pitch_rate) | not used | not used | not used | serialized | not used
+[MSG_MOVE_SET_PITCH_RATE](#msg_move_set_pitch_rate) | not used | not used | serialized | serialized | serialized
+[SMSG_FORCE_PITCH_RATE_CHANGE](#smsg_force_pitch_rate_change) | not used | not used | serialized | serialized | not used
+[SMSG_MOVE_SET_SWIM_BACK_SPEED](#smsg_move_set_swim_back_speed) | not used | not used | not used | not used | serialized
+[SMSG_SPLINE_MOVE_SET_FLYING](#smsg_spline_move_set_flying) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_UNSET_FLYING](#smsg_spline_move_unset_flying) | serialized | serialized | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_GRAVITY_DISABLE](#smsg_spline_move_gravity_disable) | not used | not used | serialized | serialized | serialized
+[SMSG_SPLINE_MOVE_GRAVITY_ENABLE](#smsg_spline_move_gravity_enable) | not used | not used | serialized | serialized | serialized
+[SMSG_MOVE_GRAVITY_DISABLE](#smsg_move_gravity_disable) | not used | not used | serialized | serialized | serialized
+[SMSG_MOVE_GRAVITY_ENABLE](#smsg_move_gravity_enable) | not used | not used | serialized | serialized | serialized
+[SMSG_MOVE_SET_WALK_SPEED](#smsg_move_set_walk_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_UPDATE_TELEPORT](#smsg_move_update_teleport) | not used | not used | not used | serialized | serialized
+[SMSG_SET_DUNGEON_DIFFICULTY](#smsg_set_dungeon_difficulty) | not used | not used | not used | not used | serialized
+[CMSG_SET_RAID_DIFFICULTY](#cmsg_set_raid_difficulty) | not used | not used | not used | not used | serialized
+[CMSG_SET_DUNGEON_DIFFICULTY](#cmsg_set_dungeon_difficulty) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_TURN_RATE](#smsg_move_set_turn_rate) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_SWIM_SPEED](#smsg_move_set_swim_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_RUN_SPEED](#smsg_move_set_run_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_RUN_BACK_SPEED](#smsg_move_set_run_back_speed) | not used | not used | not used | not used | serialized
+[SMSG_MOVE_SET_FLIGHT_BACK_SPEED](#smsg_move_set_flight_back_speed) | not used | not used | not used | not used | serialized
 
 <!-- position next 1189 -->

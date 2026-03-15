@@ -11,8 +11,8 @@ position: 1173
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    |            |
-TBC        |            |
-WotLK      |            |
-Cata       |            |
-MoP        |            |
+Classic    | 0x421      |
+TBC        | 0x421      |
+WotLK      | 0x422      |
+Cata       | 0x31B5     |
+MoP        | 0x1046     |

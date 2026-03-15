@@ -5,7 +5,7 @@ layout: single_markdown_in_list
 position: 1185
 ---
 
-## SMSG_MOVE_SET_SWIM_SPEED
+## SMSG_MOVE_SET_SWIM_SPEEDSMSG_MOVE_SET_SWIM_SPEED
 
 ### Status
 
@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       |            |
-MoP        |            |
+MoP        | 0x0817     |
