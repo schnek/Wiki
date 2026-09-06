@@ -1152,8 +1152,8 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_LF_GUILD_SET_GUILD_POST](#cmsg_lf_guild_set_guild_post) | not used | not used | not used | serialized | not used
 [CMSG_REQUEST_RATED_BG_INFO](#cmsg_request_rated_bg_info) | not used | not used | not used | serialized | not used
 [CMSG_REQUEST_RATED_BG_STATS](#cmsg_request_rated_bg_stats) | not used | not used | not used | serialized | not used
-[CMSG_REQUEST_PVP_REWARDS](#cmsg_request_pvp_rewards) | not used | not used | not used | serialized | not used
-[CMSG_REQUEST_PVP_OPTIONS_ENABLED](#cmsg_request_pvp_options_enabled) | not used | not used | not used | serialized | not used
+[CMSG_REQUEST_PVP_REWARDS](#cmsg_request_pvp_rewards) | not used | not used | not used | serialized | serialized
+[CMSG_REQUEST_PVP_OPTIONS_ENABLED](#cmsg_request_pvp_options_enabled) | not used | not used | not used | serialized | serialized
 [SMSG_GMTICKET_GETTICKET](#smsg_gmticket_getticket) | serialized | serialized | serialized | serialized | serialized
 [CMSG_REPORT](#cmsg_report) | not used | not used | not used | serialized | not used
 [CMSG_REPORT_PLAYER](#cmsg_report_player) | not used | not used | not used | serialized | not used
