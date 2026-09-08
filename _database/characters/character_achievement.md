@@ -22,8 +22,8 @@ The character guid from characters table.
 
 ### achievement
 
-The archievement ID...
+The archievement ID
 
 ### date
 
-The date...
+...

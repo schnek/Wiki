@@ -20,7 +20,6 @@ Field                      | Type       | Default | Comment
 [newRank](#newRank)        | tinyint(3) |         |        
 [timestamp](#timestamp)    | int(10)    |         |        
 
-
 ### guildId
 
 This is the guild ID from guilds table.

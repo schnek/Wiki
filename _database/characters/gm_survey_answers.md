@@ -39,7 +39,7 @@ Comparison to other customer services:
 
 ### question_id 35
 
-" recommenedn Blizz* products to a friend"
+"Recommended Blizz* products to a friend"
 
     0 = N/A
     1 = Not a chance

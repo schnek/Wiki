@@ -26,4 +26,4 @@ The character guid from characters table.
 
 ### note
 
-A short text to describe the friendship relation
+A short text to describe the friendship relation.

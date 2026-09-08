@@ -22,28 +22,28 @@ Field                               | Type          | Default                 | 
 
 ### itemId
 
-??
+...
 
 ### playerGuid
 
-??
+...
 
 ### itemEntry
 
-??
+...
 
 ### slot
 
-??
+...
 
 ### creatorGuid
 
-??
+...
 
 ### randomProperty
 
-??
+...
 
 ### suffixFactor
 
-??
+...

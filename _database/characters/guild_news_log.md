@@ -20,7 +20,6 @@ Field                     | Type       | Default  | Comment
 [value](#value)           | int(10)    | 0        |        
 [timeStamp](#timeStamp)   | int(10)    | 0        |        
 
-
 ### guildId
 
 This is the guild ID from guilds table.
@@ -31,6 +30,7 @@ The id of the log for the guild.
 
 ### eventType
 
+...
 
 ### playerGuid
 
@@ -38,10 +38,12 @@ Related player guid for this event.
 
 ### flags
 
+...
 
 ### value
 
+...
 
 ### timeStamp
 
-timestamp of the log
+timestamp of the log.

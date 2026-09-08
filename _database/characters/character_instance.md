@@ -19,16 +19,16 @@ Field                       | Type        | Default                 | Comment
 
 ### guid
 
-??
+...
 
 ### instance
 
-??
+...
 
 ### permanent
 
-??
+...
 
 ### extendState
 
-??
+...

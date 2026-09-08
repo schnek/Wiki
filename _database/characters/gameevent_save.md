@@ -1,11 +1,11 @@
 ---
-title: event_save
+title: gameevent_save
 type: characterdb
-category: E
+category: G
 layout: single_markdown
 ---
 
-# event_save
+# gameevent_save
 This table contains the event states for game events. (Filled by the core)
 
 ## Structure

@@ -20,20 +20,20 @@ Field                           | Type         | Default | Comment
 
 ### type
 
-??
+...
 
 ### spawnId
 
-??
+...
 
 ### respawnTime
 
-??
+...
 
 ### mapId
 
-??
+...
 
 ### instanceId
 
-??
+...

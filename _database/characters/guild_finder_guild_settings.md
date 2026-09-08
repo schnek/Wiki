@@ -22,28 +22,28 @@ Field                           | Type          | Default                       
 
 ### guildId
 
-??
+...
 
 ### availability
 
-??
+...
 
 ### classRoles
 
-??
+...
 
 ### interests
 
-??
+...
 
 ### level
 
-??
+...
 
 ### listed
 
-??
+...
 
-### submitTime
+### comment
 
-??
+...

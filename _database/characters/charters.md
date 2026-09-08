@@ -40,7 +40,7 @@ The name of the guild.
 
 ### itemGuid
 
-??
+...
 
 ### signers
 

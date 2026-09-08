@@ -71,8 +71,7 @@ Field                                           | Type         | Default        
 [entrypointz](#entrypointx-o)                   | float        | NOT NULL                      |                                   
 [entrypointo](#entrypointx-o)                   | float        | NOT NULL                      |                                   
 [entrypointinstance](#entrypointinstance)       | int(10)      | NOT NULL                      |                                   
-[taxi_path](#taxi_path)                         | int(10)      | NOT NULL                      |                                   
-[taxi_lastnode](#taxi_lastnode)                 | int(10)      | NOT NULL                      |                                   
+[taxi_path](#taxi_path)                         | int(10)      | NOT NULL                      |                                                                    
 [taxi_mountid](#taxi_mountid)                   | int(10)      | NOT NULL                      |                                   
 [transporter](#transporter)                     | int(10)      | NOT NULL                      |                                   
 [transporter_xdiff](#transporter_x-odiff)       | float        | NOT NULL                      |                                   
@@ -106,7 +105,8 @@ Field                                           | Type         | Default        
 [resettalents](#resettalents)                   | int(10)      | unsigned DEFAULT '0' NOT NULL |                                   
 [rbg_daily](#rbg_daily)                         | tinyint(1)   | unsigned DEFAULT '0' NOT NULL | Boolean (already won a daily rbg?)
 [dungeon_difficulty](#dungeon_difficulty)       | smallint(1)  | NOT NULL DEFAULT '0'          |                                   
-[raid_difficulty](#raid_difficulty)             | smallint(1)  | NOT NULL DEFAULT '0'          |                                   
+[raid_difficulty](#raid_difficulty)             | smallint(1)  | NOT NULL DEFAULT '0'          |
+[talentspecialization](#talentspecialization)   | varchar(50)  |                               |
 
 ### guid
 
@@ -194,15 +194,23 @@ This field is filled with a lot of "0,0,0,0,...". If a character explore a new a
 
 ### watched_faction_index
 
+...
+
 ### selected_pvp_title
 
 The ID of the chosen pvp title.
 
 ### available_pvp_titles
 
+...
+
 ### available_pvp_titles1
 
+...
+
 ### available_pvp_titles2
+
+...
 
 ### gold
 
@@ -210,7 +218,11 @@ The current "gold in copper of the character.
 
 ### ammo_id
 
+...
+
 ### available_prof_points
+
+...
 
 ### current_hp
 
@@ -222,11 +234,19 @@ The current power of the character.
 
 ### pvprank
 
+...
+
 ### bytes
+
+...
 
 ### bytes2
 
+...
+
 ### player_flags
+
+...
 
 ### enabled_actionbars
 
@@ -271,6 +291,8 @@ The ban reason as cleartext.
 
 ### timestamp
 
+...
+
 ### online
 
     0 = Character is offline
@@ -278,19 +300,35 @@ The ban reason as cleartext.
 
 ### bindpositionX
 
+...
+
 ### bindpositionY
+
+...
 
 ### bindpositionZ
 
+...
+
 ### bindmapId
+
+...
 
 ### bindzoneId
 
+...
+
 ### isResting
+
+...
 
 ### restState
 
+...
+
 ### restTime
+
+...
 
 ### playedtime
 
@@ -298,9 +336,15 @@ Time the character played (online) in seconds.
 
 ### deathstate
 
+...
+
 ### TalentResetTimes
 
+...
+
 ### first_login
+
+...
 
 ### login_flags
 
@@ -315,11 +359,19 @@ Time the character played (online) in seconds.
 
 ### arenaPoints
 
+...
+
 ### totalstableslots
+
+...
 
 ### instance_id
 
+...
+
 ### entrypointmap
+
+...
 
 ### entrypointx-o
 
@@ -327,11 +379,15 @@ Entrypoint position for the instance the player is currently in.
 
 ### entrypointinstance
 
+...
+
 ### taxi_path
 
-### taxi_lastnode
+...
 
 ### taxi_mountid
+
+...
 
 ### transporter
 
@@ -367,13 +423,23 @@ The third number is misc (unknown).
 
 ### actions2
 
+...
+
 ### auras
+
+...
 
 ### finished_quests
 
+...
+
 ### finisheddailies
 
+...
+
 ### honorRolloverTime
+
+...
 
 ### killsToday
 
@@ -400,6 +466,8 @@ The honor count of yesterday.
 All honor points counted since creation of the character.
 
 ### drunkValue
+
+...
 
 ### glyphs1
 
@@ -434,17 +502,23 @@ The talentpoints the character can set.
 
 ### firsttalenttree
 
-??
+...
 
 ### phase
 
+...
+
 ### CanGainXp
+
+...
 
 ### data
 
 Not used at the moment...
 
 ### resettalents
+
+...
 
 ### rbg_daily
 
@@ -464,3 +538,7 @@ Boolean
     1 = normal 25 man
     3 = heroic 10 man
     4 = heroic 25 man
+
+### talentspecialization
+
+...

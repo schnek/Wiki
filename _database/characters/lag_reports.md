@@ -20,6 +20,7 @@ Field                       | Type        | Default | Comment
 [position_x](#position_x-z) | float       | 0       |        
 [position_y](#position_x-z) | float       | 0       |        
 [position_z](#position_x-z) | float       | 0       |        
+[timestamp](#timestamp)     |             |         |
 
 ### lag_id
 
@@ -49,3 +50,7 @@ The map ID
 ### position_x-z
 
 position of the reporter.
+
+### timestamp
+
+...
