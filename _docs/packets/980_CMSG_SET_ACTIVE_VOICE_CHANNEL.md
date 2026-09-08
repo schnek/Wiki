@@ -12,7 +12,7 @@ position: 980
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x3D2      |
-TBC        |            |
+TBC        | 0x3D2      |
 WotLK      | 0x3D3      |
 Cata       |            |
 MoP        |            |

@@ -11,7 +11,7 @@ position: 1280
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x35E      |
+Classic    |            |
 TBC        | 0x35E      |
 WotLK      |            |
 Cata       |            |

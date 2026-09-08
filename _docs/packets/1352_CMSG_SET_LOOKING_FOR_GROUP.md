@@ -11,7 +11,7 @@ position: 1352
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x200      |
+Classic    |            |
 TBC        | 0x200      |
 WotLK      |            |
 Cata       |            |

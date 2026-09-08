@@ -11,8 +11,8 @@ position: 871
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x366      |
+Classic    |            |
 TBC        | 0x366      |
-WotLK      | 0x366      |
+WotLK      |            |
 Cata       |            |
 MoP        |            |

@@ -11,7 +11,7 @@ position: 1186
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x360      |
+Classic    |            |
 TBC        | 0x360      |
 WotLK      |            |
 Cata       |            |

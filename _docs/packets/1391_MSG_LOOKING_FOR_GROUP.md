@@ -11,7 +11,7 @@ position: 1391
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x1FF      |
+Classic    |            |
 TBC        | 0x1FF      |
 WotLK      |            |
 Cata       |            |
