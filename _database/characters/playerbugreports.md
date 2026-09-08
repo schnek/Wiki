@@ -17,41 +17,41 @@ Field                     | Type    | Default | Comment
 [TimeStamp](#TimeStamp)   | int(10) |         |
 [Suggestion](#Suggestion) | int(10) |         |
 [Type](#Type)             | text    |         |
-[Content](#Content)       | text    |         |
-
+[Content](#content)       | text    |         |
 
 ### UID
 
-
+```
 The unique ID of a bugreport.
-
+```
 
 ### AccountID
 
-
+```
 The account ID from accounts table.
-
+```
 
 ### TimeStamp
 
-
+```
 The creation timestamp of this bugreport.
-
+```
 
 ### Suggestion
 
-    0 = it is a bugreport
-    ≠ 0 = suggestion
-
+```
+0 = it is a bugreport
+≠ 0 = suggestion
+```
 
 ### Type
 
+```
+The cleartext type
+```
 
-The cleartext type.
+Content
 
-
-### Content 
-
-
+```
 The comments/description of the bugreport.
-
+```
