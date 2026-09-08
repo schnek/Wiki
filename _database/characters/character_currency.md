@@ -21,7 +21,7 @@ Field                                 | Type                | Default | Comment
 
 ### guid
 
-The character GUID from the `characters` table.
+The character GUID from the characters table.
 
 ### currency
 
