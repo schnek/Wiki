@@ -12,7 +12,7 @@ This table contains the currencies stored for characters.
 
 Field                                 | Type                | Default | Comment
 ------------------------------------- | ------------------- | ------- | ----------------------------------------------------------
-[guid](#guid)                         | int(10) unsigned    |         | Character GUID from the `characters` table.
+[guid](#guid)                         | int(10) unsigned    |         | Character GUID from the characters table.
 [currency](#currency)                 | int(10) unsigned    |         | Currency ID.
 [quantity](#quantity)                 | int(10) unsigned    | 0       | Current currency quantity.
 [weekly_quantity](#weekly_quantity)   | int(10) unsigned    | 0       | Currency quantity earned during the current weekly period.
