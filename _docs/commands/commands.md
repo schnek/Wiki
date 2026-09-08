@@ -613,7 +613,7 @@ portus     | m      | Ports you and the targeted character to recalled location 
 
 Access: r 
 
-Description: Revives you, or a selected player 
+Description: Revives you, or a selected player. Have to type /g (for guild chat) and then use a command.
 
 Usage: .revive (revives target or self) or .revive (playername) (revives player with name (playername))
 
