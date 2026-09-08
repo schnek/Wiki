@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # account_instance_times
-??
 
 ## Structure
 
@@ -18,12 +17,12 @@ Field                                     | Type         | Default              
 
 ### accountId
 
-??
+...
 
 ### instanceId
 
-??
+...
 
 ### releaseTime
 
-??
+...

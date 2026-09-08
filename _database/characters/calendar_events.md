@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # calendar_events
-??
 
 ## Structure
 
@@ -23,32 +22,32 @@ Field                       | Type          | Default                   | Commen
 
 ### entry
 
-??
+...
 
 ### creator
 
-??
+...
 
 ### title
 
-??
+...
 
 ### description
 
-??
+...
 
 ### type
 
-??
+...
 
 ### dungeon
 
-??
+...
 
 ### date
 
-??
+...
 
 ### flags
 
-??
+...

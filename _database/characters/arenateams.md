@@ -15,14 +15,14 @@ Field                                     | Type         | Default | Comment
 [id](#id)                                 | int(30)      |         |        
 [type](#type)                             | int(30)      |         |        
 [leader](#leader)                         | int(30)      |         |        
-[name](#name)                             | varchar(150) |         |        
+[name](#name)                             | varchar(100) |         |        
 [emblemstyle](#emblemstyle)               | int(40)      |         |        
 [emblemcolour](#emblemcolour)             | bigint(40)   |         |        
 [borderstyle](#borderstyle)               | int(40)      |         |        
 [bordercolour](#bordercolour)             | bigint(40)   |         |        
 [backgroundcolour](#backgroundcolour)     | bigint(40)   |         |        
 [rating](#rating)                         | int(30)      |         |        
-[data](#data)                             | varchar(150) |         |        
+[data](#data)                             | varchar(100) |         |        
 [ranking](#ranking)                       | int(30)      |         |        
 [player_data1](#player_data1-10)          | varchar(60)  |         |        
 [player_data2](#player_data1-10)          | varchar(60)  |         |        
