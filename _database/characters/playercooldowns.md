@@ -21,30 +21,47 @@ Field                                         | Type    | Default | Comment
 
 ### player_guid
 
-The character guid from characters table.
+The character GUID from the `characters` table.
 
 ### cooldown_type
+
+///////////////////////////////////////////
+test test
 
     0 = Spell (single)
     1 = Item
     2 = Spell (category)
 
+
+test test
+///////////////////////////////////////////
+
+The type of cooldown.
+
+```text
+0 = Spell (single)
+1 = Item
+2 = Spell (category)
+```
+
 ### cooldown_misc
 
-This field depends on the cooldown_type.
+This field depends on the `cooldown_type`.
 
-    cooldown_type = 0 (filled with a spell ID)
-    cooldown_type = 1 (filled with a item guid)
-    cooldown_type = 0 (filled with a spellcategory ID)
+```text
+cooldown_type = 0 → Spell ID
+cooldown_type = 1 → Item GUID
+cooldown_type = 2 → Spell category ID
+```
 
 ### cooldown_expire_time
 
-The time the cooldown expired in unix epoch format.
+The time when the cooldown expires, stored in Unix epoch format.
 
 ### cooldown_spellid
 
-The spell that cast it?
+The spell associated with the cooldown.
 
 ### cooldown_itemid
 
-The item that cast it?
+The item associated with the cooldown.

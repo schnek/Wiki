@@ -12,8 +12,13 @@ This table contains the character_db check.
 
 Field                     | Type         | Default      | Comment
 ------------------------- | ------------ | ------------ | -------
-[LastUpdate](#LastUpdate) | varchar(255) | Empty String |        
+[id](#id)                 | smallint     | 0            | key, auto
+[LastUpdate](#LastUpdate) | varchar(100) | Empty String |
+
+### id
+
+Update ID
 
 ### LastUpdate
 
-This field would be filled from the character updates... do not customize!
+This field would be filled from the character updates. [do not customize!]
