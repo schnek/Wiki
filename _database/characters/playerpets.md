@@ -36,7 +36,7 @@ Field                                   | Type         | Default      | Comment
 
 ### ownerguid
 
-The character guid of the pet owner from characters table.
+The character guid of the pet owner from `characters` table.
 
 ### petnumber
 

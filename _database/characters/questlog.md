@@ -28,7 +28,7 @@ Field                                     | Type       | Default | Comment
 
 ### player_guid
 
-The character guid from characters table.
+The character guid from `characters` table.
 
 ### quest_id
 

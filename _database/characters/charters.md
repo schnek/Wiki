@@ -21,7 +21,7 @@ Field                       | Type        | Default                 | Comment
 
 ### charterId
 
-The guid of the leader from characters table.
+The guid of the leader from `characters` table.
 
 ### charterType
 
@@ -44,4 +44,4 @@ The name of the guild.
 
 ### signers
 
-The guid of the signers from characters table.
+The guid of the signers from `characters` table.

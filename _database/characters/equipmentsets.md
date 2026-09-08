@@ -40,7 +40,7 @@ Field                   | Type         | Default      | Comment
 
 ### ownerguid
 
-Owner ID from characters table.
+Owner ID from `characters` table.
 
 ### setGUID
 

@@ -24,7 +24,7 @@ Field                              | Type       | Default | Comment
 
 ### playerId
 
-This is the character guid from characters table.
+This is the character guid from `characters` table.
 
 ### tutorials
 

@@ -41,7 +41,7 @@ The item guid from playeritems table.
 
 ### owner
 
-The character guid from characters table.
+The character guid from `characters` table.
 
 ### startbid
 
@@ -57,7 +57,7 @@ The remaining time of this auction in milliseconds.
 
 ### bidder
 
-The character guid of the current highest bidder from characters table.
+The character guid of the current highest bidder from `characters` table.
 
 ### bid
 

@@ -17,7 +17,7 @@ Field               | Type    | Default | Comment
 
 ### GUID
 
-The character guid from characters table.
+The character guid from `characters` table.
 
 ### SpellID
 

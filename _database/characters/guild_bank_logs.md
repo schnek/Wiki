@@ -51,7 +51,7 @@ The ID of the tab the item is placed.
 
 ### playerGuid
 
-The play guid from characters table.
+The play guid from `characters` table.
 
 ### itemOrMoney
 

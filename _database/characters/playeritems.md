@@ -35,7 +35,7 @@ Field                                     | Type       | Default  | Comment
 
 ### ownerguid
 
-This is the player guild ID from characters table.
+This is the player guild ID from `characters` table.
 
 ### guid
 
@@ -52,11 +52,11 @@ NOTE: The item needed the flag 512. Something is curious with the item flags!
 
 ### wrapped_creator
 
-The creator guid from characters table.
+The creator guid from `characters` table.
 
 ### creator
 
-The character ID of the creator from characters table. Only for items with flags = 2 (conjured).
+The character ID of the creator from `characters` table. Only for items with flags = 2 (conjured).
 
 ### count
 

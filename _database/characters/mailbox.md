@@ -42,11 +42,11 @@ The unique ID of the message/mail.
 
 ### player_guid
 
-The character guid of the reviever from characters table.
+The character guid of the reviever from `characters` table.
 
 ### sender_guid
 
-The character guid of the sender from characters table.
+The character guid of the sender from `characters` table.
 
 ### subject
 

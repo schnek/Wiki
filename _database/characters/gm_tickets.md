@@ -32,7 +32,7 @@ The ID of the ticket.
 
 ### playerGuid
 
-The character guid from characters table.
+The character guid from `characters` table.
 
 ### name
 
@@ -69,7 +69,7 @@ The rating of the arena team.
 
 ### assignedto
 
-The guid of the gamemaster from characters table.
+The guid of the gamemaster from `characters` table.
 
 ### comment
 

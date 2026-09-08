@@ -49,7 +49,7 @@ This is id of the aren team.
 
 ### leader
 
-The guid id row guid from characters table.
+The guid id row guid from `characters` table.
 
 ### name
 
@@ -89,4 +89,4 @@ The ranking for the aren team.
 
 ### player_data1-10
 
-Name of arena team member row name from characters table.
+Name of arena team member row name from `characters` table.

@@ -24,7 +24,7 @@ The id of the guild from guilds table.
 
 ### playerid
 
-The character guid of the guild member from characters table.
+The character guid of the guild member from `characters` table.
 
 ### guildRank
 

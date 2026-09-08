@@ -18,7 +18,7 @@ Field                       | Type    | Default | Comment
 
 ### guid
 
-The character guid from characters table.
+The character guid from `characters` table.
 
 ### achievement
 

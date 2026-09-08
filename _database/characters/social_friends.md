@@ -18,11 +18,11 @@ Field                             | Type         | Default | Comment
 
 ### character_guid
 
-The character guid from characters table.
+The character guid from `characters` table.
 
 ### friend_guid
 
-The character guid from characters table.
+The character guid from `characters` table.
 
 ### note
 

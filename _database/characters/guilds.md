@@ -38,7 +38,7 @@ The name of the guild.
 
 ### leaderGuid
 
-The character guid of the guild leader from characters table.
+The character guid of the guild leader from `characters` table.
 
 ### emblemStyle
 

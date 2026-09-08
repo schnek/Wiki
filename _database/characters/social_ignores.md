@@ -17,8 +17,8 @@ Field                             | Type    | Default | Comment
 
 ### character_guid
 
-The character guid who ignores from characters table.
+The character guid who ignores from `characters` table.
 
 ### ignore_guid
 
-The character guid who is ignored from characters table.
+The character guid who is ignored from `characters` table.
