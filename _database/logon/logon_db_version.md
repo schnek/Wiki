@@ -18,3 +18,5 @@ Field                    | Type         | Default | Comment
 ### LastUpdate
 
 The file name of the last applied logon db update
+
+For more information, see the [database auto-update documentation](https://ascemu.github.io/Wiki/database/auto_update/).

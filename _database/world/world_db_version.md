@@ -22,3 +22,5 @@ Update ID
 ### LastUpdate
 
 Filled by sql script from world_updates.
+
+For more information, see the [database auto-update documentation](https://ascemu.github.io/Wiki/database/auto_update/).
