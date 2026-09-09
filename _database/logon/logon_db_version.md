@@ -6,17 +6,23 @@ layout: single_markdown
 ---
 
 # logon_db_version
-This table contains the information about the logon db version.
+This table contains the `logon` database version information.
 
 ## Structure
 
-Field                    | Type         | Default | Comment
------------------------- | ------------ | ------- | -------
-[LastUpdate](#LastUpdate)| varchar(225) |         |        
+Field                     | Type         | Default      | Comment
+------------------------- | ------------ | ------------ | -------
+[id](#id)                 | smallint     | 0            | key, auto
+[LastUpdate](#LastUpdate) | varchar(100) |              |        
     
+### id
+
+Auto-incrementing change counter for the logon database.
+
+Each database update increases this value sequentially.
 
 ### LastUpdate
 
-The file name of the last applied logon db update
+Contains the identifier of the latest applied logon database update.
 
 For more information, see the [database auto-update documentation](https://ascemu.github.io/Wiki/database/auto_update/).
