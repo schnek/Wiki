@@ -11,7 +11,7 @@ position: 1234
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x361      |
+Classic    |            |
 TBC        | 0x361      |
 WotLK      |            |
 Cata       |            |

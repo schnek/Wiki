@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # banned_char_log
-??
 
 ## Structure
 
@@ -20,20 +19,20 @@ Field                               | Type          | Default   | Comment
 
 ### banned_by
 
-??
+...
 
 ### banned_player
 
-??
+...
 
 ### timestamp
 
-??
+...
 
 ### banned_until
 
-??
+...
 
 ### reason
 
-??
+...

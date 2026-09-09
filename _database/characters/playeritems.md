@@ -198,3 +198,7 @@ Will be set to "0" if it would send by mail. Seems it would be set by selling in
 ### refund_costid
 
 The auctionshouse item id... let me check this.
+
+### text
+
+...

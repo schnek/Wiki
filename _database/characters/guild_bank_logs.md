@@ -62,6 +62,7 @@ The item entry from items table or the money value (eventType 4 - 5).
 The number of stacked items.
 
 ### destTabId
+
 the destination tab for the item in this log.
 
 ### timestamp

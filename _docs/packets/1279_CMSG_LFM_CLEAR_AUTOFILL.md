@@ -11,7 +11,7 @@ position: 1279
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x35F      |
+Classic    |            |
 TBC        | 0x35F      |
 WotLK      |            |
 Cata       |            |

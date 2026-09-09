@@ -12,12 +12,12 @@ This table contains the submitted bugreports.
 
 Field                     | Type    | Default | Comment
 ------------------------- | ------- | ------- | -------
-[UID](#UID)               | int(10) |         |        
-[AccountID](#AccountID)   | int(10) |         |        
-[TimeStamp](#TimeStamp)   | int(10) |         |        
-[Suggestion](#Suggestion) | int(10) |         |        
-[Type](#Type)             | text    |         |        
-[Content](#Content)       | text    |         |        
+[UID](#UID)               | int(10) |         |
+[AccountID](#AccountID)   | int(10) |         |
+[TimeStamp](#TimeStamp)   | int(10) |         |
+[Suggestion](#Suggestion) | int(10) |         |
+[Type](#Type)             | text    |         |
+[Content](#content)       | text    |         |
 
 ### UID
 
@@ -50,7 +50,7 @@ The creation timestamp of this bugreport.
 The cleartext type
 ```
 
-Content 
+Content
 
 ```
 The comments/description of the bugreport.

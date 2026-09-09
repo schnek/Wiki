@@ -11,7 +11,7 @@ position: 1209
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x362      |
+Classic    |            |
 TBC        | 0x362      |
 WotLK      |            |
 Cata       |            |

@@ -34,7 +34,7 @@ The primary key consists of `ownerguid` and `id`.
 
 ### ownerguid
 
-This is the character guid from the `characters` table.
+This is the character guid from the characters table.
 
 ### id
 

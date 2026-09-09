@@ -48,8 +48,8 @@ The CRC value of the addon.
 
 ### timestamp
 
-??
+...
 
 ### version
 
-??
+...

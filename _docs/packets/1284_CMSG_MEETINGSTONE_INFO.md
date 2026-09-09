@@ -11,7 +11,7 @@ position: 1284
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x296      |
+Classic    |            |
 TBC        | 0x296      |
 WotLK      |            |
 Cata       |            |

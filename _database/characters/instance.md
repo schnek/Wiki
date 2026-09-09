@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # instance
-??
 
 ## Structure
 
@@ -21,24 +20,24 @@ Field                                       | Type        | Default | Comment
 
 ### id
 
-??
+...
 
 ### map
 
-??
+...
 
 ### resettime
 
-??
+...
 
 ### difficulty
 
-??
+...
 
 ### completedEncounters
 
-??
+...
 
 ### data
 
-??
+...

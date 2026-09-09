@@ -11,7 +11,7 @@ position: 1218
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x363      |
+Classic    |            |
 TBC        | 0x363      |
 WotLK      |            |
 Cata       |            |

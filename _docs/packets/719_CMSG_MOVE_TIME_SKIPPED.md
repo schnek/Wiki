@@ -11,8 +11,8 @@ position: 719
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x2CE      |
+Classic    |            |
 TBC        | 0x2CE      |
-WotLK      | 0x2CE      |
-Cata       | 0x7A0A     |
-MoP        | 0x0150     |
+WotLK      |            |
+Cata       |            |
+MoP        |            |

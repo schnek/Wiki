@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # calendar_invites
-??
 
 ## Structure
 
@@ -19,31 +18,36 @@ Field                       | Type          | Default                   | Commen
 [status](#status)           | tinyint(3)    |                           |
 [statustime](#statustime)   | int(10)       |                           |
 [rank](#rank)               | tinyint(3)    |                           |
+[text](#text)               | varchar(100)  |                           |
 
 ### id
 
-??
+...
 
 ### event
 
-??
+...
 
 ### invitee
 
-??
+...
 
 ### sender
 
-??
+...
 
 ### status
 
-??
+...
 
 ### statustime
 
-??
+...
 
 ### rank
 
-??
+...
+
+### text
+
+...

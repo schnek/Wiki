@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # world_db_version
-This table ensures that the world database matches the core
+This table contains the `world` database version information.
 
 ## Structure
 
@@ -17,8 +17,12 @@ Field                     | Type         | Default      | Comment
 
 ### id
 
-Update ID
+Auto-incrementing change counter for the world database.
+
+Each database update increases this value sequentially.
 
 ### LastUpdate
 
-Filled by sql script from world_updates.
+Contains the identifier of the latest applied world database update.
+
+For more information, see the [database auto-update documentation](https://ascemu.github.io/Wiki/database/auto_update/).

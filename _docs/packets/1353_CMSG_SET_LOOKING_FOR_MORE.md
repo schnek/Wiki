@@ -11,7 +11,7 @@ position: 1353
 
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
-Classic    | 0x365      |
+Classic    |            |
 TBC        | 0x365      |
 WotLK      |            |
 Cata       |            |

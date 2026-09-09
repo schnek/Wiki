@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       | 0x780C     |
-MoP        |            |
+MoP        | 0x0375     |

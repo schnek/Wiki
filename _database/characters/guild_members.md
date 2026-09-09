@@ -18,7 +18,6 @@ Field                          | Type        | Default      | Comment
 [publicNote](#publicNote)      | varchar(31) | empty string |        
 [officerNote](#officerNote)    | varchar(31) | empty string |        
 
-
 ### guildId
 
 The id of the guild from guilds table.

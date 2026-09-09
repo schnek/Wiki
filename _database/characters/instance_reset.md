@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # instance_reset
-??
 
 ## Structure
 
@@ -18,12 +17,12 @@ Field                                       | Type        | Default | Comment
 
 ### mapid
 
-??
+...
 
 ### difficulty
 
-??
+...
 
 ### resettime
 
-??
+...
