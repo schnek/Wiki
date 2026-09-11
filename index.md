@@ -4,7 +4,6 @@ layout: default
 # Welcome to AscEmu Wiki
 We moved our complete Wiki to github pages. Feel free to create issues, open pullrequest and discuss with us this wiki on github.
 
-
 # Wiki pages and types (Markdown)
 
 # Heading 1
@@ -38,7 +37,6 @@ We moved our complete Wiki to github pages. Feel free to create issues, open pul
 
 <del>stroke this</del>
 ```
-
 
 ## Special text
 Error
@@ -92,7 +90,6 @@ SELECT * FROM account_names WHERE id = 254;
 ```
 </pre>
 
-
 ## Tasks
 
 - [x] checked task
@@ -102,7 +99,6 @@ SELECT * FROM account_names WHERE id = 254;
 - [x] checked task
 - [ ] unchecked task
 ```
-
 
 ## Picture 
 

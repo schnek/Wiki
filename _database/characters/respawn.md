@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # respawn
-??
 
 ## Structure
 

@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # guild_finder_applicant
-??
 
 ## Structure
 

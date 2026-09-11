@@ -6,7 +6,6 @@ layout: single_markdown
 ---
 
 # loot_items
-This table contains the ??? what the hell....
 
 ## Structure
 
