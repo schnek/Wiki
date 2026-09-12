@@ -11,7 +11,7 @@ position: 124
 
 Target is the unit you want to handle the event for Event_ID has the following possible values:
 
-(../world/Units/Creatures/AIEvents.h)
+(../world/Objects/Units/Creatures/AIEvents.h)
 
 ```
 EVENT_ENTERCOMBAT     = 0

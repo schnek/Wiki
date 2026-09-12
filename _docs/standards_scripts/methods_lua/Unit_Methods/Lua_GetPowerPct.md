@@ -13,7 +13,7 @@ Returns the Unit's percentage of power left based upon the argument passed. If n
 
 ## Power Types 
 
-(../world/Spell/Definitions/PowerType.h)
+(../world/Spell/Definitions/PowerType.hpp)
 
 ```
 POWER_TYPE_HEALTH      = -2,

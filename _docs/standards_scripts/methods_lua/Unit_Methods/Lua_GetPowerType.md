@@ -13,7 +13,7 @@ Returns a numerical value to indicate the type of power.
 
 ## Power Types 
 
-(../world/Spell/Definitions/PowerType.h)
+(../world/Spell/Definitions/PowerType.hpp)
 
 ```
 POWER_TYPE_HEALTH      = -2,
