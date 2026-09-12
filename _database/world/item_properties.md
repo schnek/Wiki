@@ -466,7 +466,7 @@ The scaling stat distribution ID (from .dbc).
 ### ScaledStatsDistributionFlag
 
 <pre>
-0 = Scaling stat stat? what?         - not used
+0 = Unknown                          - not used
 1 = Scaling stat armor               - not used
 2 = Scaling stat damage              - not used
 3 = Scaling stat spell power         - not used
