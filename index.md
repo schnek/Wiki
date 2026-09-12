@@ -68,13 +68,13 @@ Success
 ## Tables
 
 Header 1   | Header 2
----------- | ---------- 
+---------- | ----------
 Cell 1     | Cell 2
 
 
 ```
 Header 1   | Header 2
----------- | ---------- 
+---------- | ----------
 Cell 1     | Cell 2
 ```
 
@@ -100,7 +100,7 @@ SELECT * FROM account_names WHERE id = 254;
 - [ ] unchecked task
 ```
 
-## Picture 
+## Picture
 
 ![alt text example](/Wiki/images/logon_icon_s.jpg "Code Tag example")
 

@@ -11,7 +11,7 @@ position: 47
 
 Returns the Unit's percentage of power left based upon the argument passed. If no argument is passed (The argument is omitted) or set to -1, then the default power is returned.
 
-## Power Types 
+## Power Types
 
 (../world/Spell/Definitions/PowerType.hpp)
 

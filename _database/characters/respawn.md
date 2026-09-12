@@ -11,11 +11,11 @@ layout: single_markdown
 
 Field                           | Type         | Default | Comment
 ------------------------------- | ------------ | ------- | -------
-[type](#type)                   | smallint(5)  |         |        
-[spawnId](#spawnId)             | int(10)      |         |    
-[respawnTime](respawnTime)      | bigint(20)   |         |    
-[mapId](#mapId)                 | smallint(5)  |         |    
-[instanceId](#instanceId)       | int(10)      |         |        
+[type](#type)                   | smallint(5)  |         |
+[spawnId](#spawnId)             | int(10)      |         |
+[respawnTime](respawnTime)      | bigint(20)   |         |
+[mapId](#mapId)                 | smallint(5)  |         |
+[instanceId](#instanceId)       | int(10)      |         |
 
 ### type
 

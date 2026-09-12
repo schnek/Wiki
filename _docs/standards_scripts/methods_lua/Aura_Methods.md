@@ -23,7 +23,7 @@ end
 # Function List
 
 Method                                                                                                       | Description
------------------------------------------------------------------------------------------------------------- | ---------- 
+------------------------------------------------------------------------------------------------------------ | ----------
 GetObjectType()                                                                                              | Returns `Aura` if the aura is not nil.
 GetSpellId()                                                                                                 | Returns the aura's spell ID.
 GetCaster()                                                                                                  | Returns the object that cast the aura. Can be a Unit, GameObject, or Item.
@@ -40,14 +40,14 @@ SetAuraSlot(slot)                                                               
 ### The following 2 methods are called from a Player or Unit, not an aura, and deal with or return an aura object.
 
 Method                                                                                                       | Description
------------------------------------------------------------------------------------------------------------- | ---------- 
+------------------------------------------------------------------------------------------------------------ | ----------
 [GetAuraObjectById(spell id)](/Wiki/docs/standards_scripts/methods_lua/Aura_Methods/Lua_GetAuraObjectById)   | Returns an aura object for the specified spell ID.
 AddAuraObject(aura)                                                                                          |
 
 ### The following methods do not return aura objects and are called from a Player or Unit, not an aura object.
 
 Method                                                                                                       | Description
------------------------------------------------------------------------------------------------------------- | ---------- 
+------------------------------------------------------------------------------------------------------------ | ----------
 [RemoveAura(SpellID)](/Wiki/docs/standards_scripts/methods_lua/Aura_Methods/Lua_RemoveAura)                  | Returns nothing. Removes the aura with the specified spell ID if the Unit has it.
 [RemoveAllAuras()](/Wiki/docs/standards_scripts/methods_lua/Aura_Methods/Lua_RemoveAllAuras)                 | Returns nothing. Removes all positive and negative auras from the Unit or target.
 [HasAura(spellID)](/Wiki/docs/standards_scripts/methods_lua/Aura_Methods/Lua_HasAura)                        | Returns true if the target or Unit has the specified spell aura.
