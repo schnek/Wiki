@@ -6,7 +6,7 @@ layout: single_markdown
 ---
 
 # quest_properties_currencies
-This table stores currency rewards granted when completing quests.
+This table stores currency rewards for quests. It is used for Cata+ quest data.
 
 ## Structure
 
