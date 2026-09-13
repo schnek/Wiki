@@ -72,6 +72,7 @@ Header 1   | Header 2
 Cell 1     | Cell 2
 
 
+Example
 ```
 Header 1   | Header 2
 ---------- | ----------
@@ -98,6 +99,25 @@ SELECT * FROM account_names WHERE id = 254;
 ```
 - [x] checked task
 - [ ] unchecked task
+```
+
+## Details and Summary
+
+<details>
+<summary>Click here</summary>
+* Alliance
+* Horde
+* Neutral
+</details>
+
+Example
+```
+<details>
+<summary>Click here</summary>
+* Alliance
+* Horde
+* Neutral
+</details>
 ```
 
 ## Picture
