@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       | 0x301E     |
-MoP        |            |
+MoP        | 0x12EA     |

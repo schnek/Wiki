@@ -531,7 +531,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_SETSHEATHED](#cmsg_setsheathed) | serialized | serialized | serialized | serialized | serialized
 [SMSG_COOLDOWN_CHEAT](#smsg_cooldown_cheat) | serialized | serialized | serialized | serialized | not used
 [SMSG_SPELL_DELAYED](#smsg_spell_delayed) | serialized | serialized | serialized | serialized | serialized
-[CMSG_QUEST_POI_QUERY](#cmsg_quest_poi_query) | not used | not used | serialized | serialized | not used
+[CMSG_QUEST_POI_QUERY](#cmsg_quest_poi_query) | not used | not used | serialized | serialized | serialized
 [SMSG_QUEST_POI_QUERY_RESPONSE](#smsg_quest_poi_query_response) | not used | not used | serialized | serialized | serialized
 [CMSG_GHOST](#cmsg_ghost) | serialized | serialized | serialized | serialized | not used
 [CMSG_GM_INVIS](#cmsg_gm_invis) | serialized | serialized | serialized | not used | not used
@@ -759,7 +759,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_GAMEOBJECT_RESET_STATE](#smsg_gameobject_reset_state) | serialized | serialized | serialized | serialized | not used
 [CMSG_REPAIR_ITEM](#cmsg_repair_item) | serialized | serialized | serialized | serialized | serialized
 [SMSG_CHAT_PLAYER_NOT_FOUND](#smsg_chat_player_not_found) | serialized | serialized | serialized | serialized | serialized
-[MSG_TALENT_WIPE_CONFIRM](#msg_talent_wipe_confirm) | serialized | not used | serialized | serialized | not used
+[MSG_TALENT_WIPE_CONFIRM](#msg_talent_wipe_confirm) | serialized | serialized | serialized | serialized | not used
 [SMSG_SUMMON_REQUEST](#smsg_summon_request) | serialized | serialized | serialized | serialized | serialized
 [CMSG_SUMMON_RESPONSE](#cmsg_summon_response) | serialized | serialized | serialized | serialized | serialized
 [MSG_MOVE_TOGGLE_GRAVITY_CHEAT](#msg_move_toggle_gravity_cheat) | serialized | serialized | serialized | serialized | not used
@@ -1159,7 +1159,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_REPORT_PLAYER](#cmsg_report_player) | not used | not used | not used | serialized | not used
 [CMSG_REQUEST_CEMETERY_LIST](#cmsg_request_cemetery_list) | not used | not used | not used | serialized | serialized
 [CMSG_REQUEST_HOTFIX](#cmsg_request_hotfix) | not used | not used | not used | serialized | serialized
-[CMSG_RETURN_TO_GRAVEYARD](#cmsg_return_to_graveyard) | not used | not used | not used | serialized | not used
+[CMSG_RETURN_TO_GRAVEYARD](#cmsg_return_to_graveyard) | not used | not used | not used | serialized | serialized
 [CMSG_SUGGESTION_SUBMIT](#cmsg_suggestion_submit) | not used | not used | not used | serialized | not used
 [CMSG_LOG_DISCONNECT](#cmsg_log_disconnect) | not used | not used | not used | serialized | serialized
 [CMSG_PET_LEVEL_CHEAT](#cmsg_pet_level_cheat) | not used | not used | not used | serialized | not used
@@ -1322,7 +1322,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_QUERY_SERVER_BUCK_DATA](#cmsg_query_server_buck_data) | serialized | serialized | serialized | serialized | not used
 [CMSG_QUERY_VEHICLE_STATUS](#cmsg_query_vehicle_status) | not used | not used | serialized | serialized | not used
 [CMSG_QUESTGIVER_QUEST_AUTOLAUNCH](#cmsg_questgiver_quest_autolaunch) | serialized | serialized | serialized | serialized | not used
-[CMSG_QUEST_NPC_QUERY](#cmsg_quest_npc_query) | not used | not used | not used | serialized | serialized
+[CMSG_QUEST_NPC_QUERY](#cmsg_quest_npc_query) | not used | not used | not used | not used | serialized
 [CMSG_RAID_READY_CHECK](#cmsg_raid_ready_check) | not used | not used | not used | not used | serialized
 [CMSG_RAID_READY_CHECK_CONFIRM](#cmsg_raid_ready_check_confirm) | not used | not used | not used | not used | serialized
 [CMSG_RAID_TARGET_UPDATE](#cmsg_raid_target_update) | not used | not used | not used | not used | serialized

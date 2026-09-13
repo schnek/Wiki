@@ -12,7 +12,7 @@ position: 683
 Version    | Hex        | Comment
 ---------- | ---------- | ---------- 
 Classic    | 0x2AA      |
-TBC        |            |
+TBC        | 0x2AA      |
 WotLK      | 0x2AA      |
 Cata       | 0x0107     |
 MoP        |            |
