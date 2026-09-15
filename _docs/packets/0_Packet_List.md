@@ -232,7 +232,7 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [MSG_MOVE_SET_RUN_MODE](#msg_move_set_run_mode) | serialized | serialized | serialized | serialized | serialized
 [MSG_MOVE_SET_WALK_MODE](#msg_move_set_walk_mode) | serialized | serialized | serialized | serialized | serialized
 [MSG_MOVE_TOGGLE_LOGGING](#msg_move_toggle_logging) | serialized | serialized | serialized | serialized | not used
-[MSG_MOVE_TELEPORT](#msg_move_teleport) | serialized | serialized | serialized | serialized | not used
+[MSG_MOVE_TELEPORT](#msg_move_teleport) | serialized | serialized | serialized | serialized | serialized
 [MSG_MOVE_TELEPORT_CHEAT](#msg_move_teleport_cheat) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_TELEPORT_ACK](#msg_move_teleport_ack) | serialized | serialized | serialized | serialized | not used
 [MSG_MOVE_TOGGLE_FALL_LOGGING](#msg_move_toggle_fall_logging) | serialized | serialized | serialized | serialized | not used
@@ -815,9 +815,9 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_FORCE_SWIM_BACK_SPEED_CHANGE_ACK](#cmsg_force_swim_back_speed_change_ack) | serialized | serialized | serialized | serialized | serialized
 [SMSG_FORCE_TURN_RATE_CHANGE](#smsg_force_turn_rate_change) | serialized | serialized | serialized | serialized | serialized
 [CMSG_FORCE_TURN_RATE_CHANGE_ACK](#cmsg_force_turn_rate_change_ack) | serialized | serialized | serialized | serialized | serialized
-[MSG_PVP_LOG_DATA](#msg_pvp_log_data) | serialized | serialized | serialized | serialized | not used
+[MSG_PVP_LOG_DATA](#msg_pvp_log_data) | serialized | serialized | serialized | serialized | serialized
 [MSG_QUERY_GUILD_BANK_TEXT](#msg_query_guild_bank_text) | serialized | serialized | serialized | serialized | serialized
-[CMSG_LEAVE_BATTLEFIELD](#cmsg_leave_battlefield) | serialized | serialized | serialized | serialized | not used
+[CMSG_LEAVE_BATTLEFIELD](#cmsg_leave_battlefield) | serialized | serialized | serialized | serialized | serialized
 [CMSG_AREA_SPIRIT_HEALER_QUERY](#cmsg_area_spirit_healer_query) | serialized | serialized | serialized | serialized | serialized
 [CMSG_AREA_SPIRIT_HEALER_QUEUE](#cmsg_area_spirit_healer_queue) | serialized | serialized | serialized | serialized | serialized
 [SMSG_AREA_SPIRIT_HEALER_TIME](#smsg_area_spirit_healer_time) | serialized | serialized | serialized | serialized | serialized
@@ -1196,7 +1196,6 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_AFK_MONITOR_INFO_REQUEST](#cmsg_afk_monitor_info_request) | not used | not used | serialized | serialized | not used
 [CMSG_AUCTION_HELLO](#cmsg_auction_hello) | not used | not used | not used | not used | serialized
 [CMSG_AUTH_CONTINUED_SESSION](#cmsg_auth_continued_session) | not used | not used | not used | not used | serialized
-[CMSG_BATTLEFIELD_LEAVE](#cmsg_battlefield_leave) | not used | not used | not used | serialized | serialized
 [CMSG_BATTLEFIELD_MANAGER_ADVANCE_STATE](#cmsg_battlefield_manager_advance_state) | not used | not used | serialized | serialized | not used
 [CMSG_BATTLEFIELD_MANAGER_SET_NEXT_TRANS_TIME](#cmsg_battlefield_manager_set_next_trans_time) | not used | not used | serialized | serialized | not used
 [CMSG_BATTLEFIELD_MGR_EXIT_REQUEST](#cmsg_battlefield_mgr_exit_request) | not used | not used | serialized | serialized | serialized
@@ -1312,7 +1311,6 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [CMSG_PLAYER_MACRO_OBSOLETE](#cmsg_player_macro_obsolete) | serialized | serialized | not used | not used | not used
 [CMSG_PLAY_DANCE](#cmsg_play_dance) | not used | not used | serialized | serialized | not used
 [CMSG_PROFILEDATA_REQUEST](#cmsg_profiledata_request) | not used | not used | serialized | serialized | not used
-[CMSG_PVP_LOG_DATA](#cmsg_pvp_log_data) | not used | not used | not used | serialized | serialized
 [CMSG_PVP_PORT_OBSOLETE](#cmsg_pvp_port_obsolete) | serialized | serialized | not used | not used | not used
 [CMSG_PVP_QUEUE_STATS_REQUEST](#cmsg_pvp_queue_stats_request) | not used | not used | serialized | serialized | not used
 [CMSG_QUERY_GUILD_MEMBERS_FOR_RECIPES](#cmsg_query_guild_members_for_recipes) | not used | not used | not used | serialized | not used
@@ -1755,4 +1753,4 @@ Opcode Name | Classic Status | TBC Status | WotLK Status | Cata Status | MoP Sta
 [SMSG_MIRRORIMAGE_COMPONENTED_DATA](#smsg_mirrorimage_componented_data) | not used | not used | not used | not used | serialized
 [SMSG_MIRRORIMAGE_CREATURE_DATA](#smsg_mirrorimage_creature_data) | not used | not used | not used | not used | serialized
 
-<!-- position next 1749 -->
+<!-- position next 1747 -->

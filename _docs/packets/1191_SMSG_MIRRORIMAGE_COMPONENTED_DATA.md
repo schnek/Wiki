@@ -1,11 +1,11 @@
 ---
-title: SMSG_MIRRORIMAGE_CREATURE_DATA
+title: SMSG_MIRRORIMAGE_COMPONENTED_DATA
 type: packets
 layout: single_markdown_in_list
-position: 1748
+position: 1191
 ---
 
-## SMSG_MIRRORIMAGE_CREATURE_DATA
+## SMSG_MIRRORIMAGE_COMPONENTED_DATA
 
 ### Status
 
@@ -15,4 +15,4 @@ Classic    |            |
 TBC        |            |
 WotLK      |            |
 Cata       |            |
-MoP        | 0x04D0     |
+MoP        | 0x04D9     |

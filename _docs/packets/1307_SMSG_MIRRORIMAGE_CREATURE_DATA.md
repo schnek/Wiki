@@ -1,11 +1,11 @@
 ---
-title: CMSG_BATTLEFIELD_LEAVE
+title: SMSG_MIRRORIMAGE_CREATURE_DATA
 type: packets
 layout: single_markdown_in_list
-position: 1191
+position: 1307
 ---
 
-## CMSG_BATTLEFIELD_LEAVE
+## SMSG_MIRRORIMAGE_CREATURE_DATA
 
 ### Status
 
@@ -14,5 +14,5 @@ Version    | Hex        | Comment
 Classic    |            |
 TBC        |            |
 WotLK      |            |
-Cata       | 0x3018     |
-MoP        | 0x0257     |
+Cata       |            |
+MoP        | 0x04D0     |
