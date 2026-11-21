@@ -1,7 +1,7 @@
 ---
 title: Naming
 type: mysqlstandard
-layout: single_markdown
+layout: single_markdown_in_list
 position: 1
 ---
 # File naming

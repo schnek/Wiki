@@ -1,7 +1,7 @@
 ---
 title: Comments
 type: mysqlstandard
-layout: single_markdown
+layout: single_markdown_in_list
 position: 2
 ---
 # Comments/Description
